@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "DOPE-ASS",
+      "path": "."
+    },
+    {
+      "name": "DOPE (submodule)",
+      "path": "DOPE"
+    }
+  ],
+  "settings": {
+    "git.detectSubmodules": true,
+    "git.detectSubmodulesLimit": 10
+  }
+}
