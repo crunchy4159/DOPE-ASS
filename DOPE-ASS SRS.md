@@ -1,6 +1,6 @@
 # Software Requirements Specification
 
-# DOPE-ASS — Digital Optical Performance Engine Application Software Stack
+# DOPE-ASS — Digital Optical Performance Engine Automated Scope System
 
 ## Version 0.1 — DRAFT
 
@@ -14,7 +14,7 @@
 
 ## 1.1 Purpose
 
-**DOPE-ASS** (Digital Optical Performance Engine — Application Software Stack) is the firmware that actually runs the scope. It sits on top of the DOPE ballistic library and owns everything DOPE deliberately ignores: the camera, the display, the reticle, the user interface, the sensor drivers, profiles, ranging modes, and the system state machine.
+**DOPE-ASS** (Digital Optical Performance Engine — Automated Scope System) is the firmware that actually runs the scope. It sits on top of the DOPE ballistic library and owns everything DOPE deliberately ignores: the camera, the display, the reticle, the user interface, the sensor drivers, profiles, ranging modes, and the system state machine.
 
 In short: DOPE does the math, DOPE-ASS does everything else. It collects raw sensor data, normalizes it into `SensorFrame` structs, feeds those into DOPE each cycle, reads back the `FiringSolution`, and puts the hold corrections on the glass.
 

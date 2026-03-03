@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# DOPE-ASS  —  sdkconfig.defaults for ESP32-P4
+# These override ESP-IDF Kconfig defaults at first build.
+# ---------------------------------------------------------------------------
+
+# --- FreeRTOS ---
+CONFIG_FREERTOS_HZ=1000
+
+# --- I2C ---
+CONFIG_I2C_ISR_IRAM_SAFE=y
+
+# --- SPI ---
+CONFIG_SPI_MASTER_ISR_IN_IRAM=y
+
+# --- UART ---
+CONFIG_UART_ISR_IN_IRAM=y
+
+# --- Flash / Partitions ---
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+
+# --- LittleFS (via esp_littlefs component) ---
+# Enabled by default when the component is present
+
+# --- Logging ---
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_LOG_MAXIMUM_LEVEL_DEBUG=y
+
+# --- Watchdog ---
+CONFIG_ESP_TASK_WDT_TIMEOUT_S=10
+
+# --- Heap ---
+CONFIG_SPIRAM_USE_CAPS_ALLOC=y
+
+# --- Power Management (prep — not active in Phase 0) ---
+# CONFIG_PM_ENABLE is intentionally left off for now
