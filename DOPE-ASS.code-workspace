@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "DOPE-ASS",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.readonlyInclude": {
+      "DOPE/**": true
+    }
+  }
+}
