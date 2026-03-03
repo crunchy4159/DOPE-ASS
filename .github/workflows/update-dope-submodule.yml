@@ -12,11 +12,14 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout DOPE-ASS with submodules
+      - name: Checkout DOPE-ASS
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: false
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Init top-level DOPE submodule (non-recursive)
+        run: git submodule init DOPE && git submodule update DOPE
 
       - name: Update DOPE submodule to latest
         run: git submodule update --remote DOPE
