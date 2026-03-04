@@ -1,5 +1,5 @@
 # DOPE-ASS
-### Digital Optical Performance Engine — Automated Scope System
+### Digital Open-Source Precise Extrapolator — Automated Scope System
 
 DOPE-ASS is the firmware for a custom smart scope built on the ESP32-P4. It drives the camera, display, sensor stack, and user interface, and uses [DOPE](https://github.com/your-org/DOPE) as a git submodule to handle all the ballistic math.
 
