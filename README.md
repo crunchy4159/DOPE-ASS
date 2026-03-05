@@ -1,7 +1,7 @@
 # DOPE-ASS
 ### Digital Open-Source Precise Extrapolator — Automated Scope System
 
-DOPE-ASS is the firmware for a custom smart scope built on the ESP32-P4. It drives the camera, display, sensor stack, and user interface, and uses [DOPE](https://github.com/your-org/DOPE) as a git submodule to handle all the ballistic math.
+DOPE-ASS is the firmware for a custom smart scope built on the ESP32-P4. It drives the camera, display, sensor stack, and user interface, and uses [DOPE](https://github.com/crunchy4159/DOPE) as a git submodule to handle all the ballistic math.
 
 The scope renders a live camera feed with a first-focal-plane tactical reticle overlay. Point at a target, pull the range trigger, and the hold corrections appear on the glass — elevation, windage, Coriolis, spin drift, cant, the works. DOPE-ASS handles everything above the math. DOPE handles the math.
 
