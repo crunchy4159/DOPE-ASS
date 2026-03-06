@@ -7,6 +7,10 @@ The scope renders a live camera feed with a first-focal-plane tactical reticle o
 
 ---
 
+XMR Donation Address: 8BWmYeEc8xQekZXC29ATz4aLagtw4y1U7JxFxrZFYyoaLDccPjTT6KRYvEVYeirr3M9p7ZQsvJSDeQUctB68wZPaDvZ1ifu
+
+---
+
 ## Hardware
 
 | Component | Part |
