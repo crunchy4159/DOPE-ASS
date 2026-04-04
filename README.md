@@ -118,3 +118,6 @@ git submodule update --remote DOPE
 ## Status
 
 Early development. Hardware prototype in progress. See [Open Items](DOPE-ASS%20SRS.md#15-open-items) in the SRS for what's still TBD.
+
+## License
+PolyForm Small Business License 1.0.0
